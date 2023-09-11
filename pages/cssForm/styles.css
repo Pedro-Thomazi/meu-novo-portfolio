@@ -1,0 +1,21 @@
+body {
+  background-color: #ccc
+}
+
+.myForm {
+  background-color: #fff;
+  padding: 25px;
+  margin-top: 25px;
+  border-radius: 10px;
+  box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.356);
+}
+
+input.form-control {
+  border: none;
+  border-bottom: 1px solid #222;
+  border-radius: 0;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
