@@ -391,7 +391,7 @@ body {
 }
 
 .myWorks .firstProject {
-  background: linear-gradient(rgba(0, 0, 0, 0.425) 0%, rgba(0, 0, 0, 0.767) 100%), url("../img/imgProjects/pageStoreMarshall.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.425) 0%, rgba(0, 0, 0, 0.767) 100%), url("../img/imgProjects/moviesOnly.png");
   background-size: cover;
   background-position: center;
 }
