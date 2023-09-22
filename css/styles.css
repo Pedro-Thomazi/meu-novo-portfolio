@@ -376,7 +376,17 @@ body {
 }
 
 .myWorks .project p {
+  opacity: 0;
+  position: absolute;
+  background-color: red;
+  padding: 10px 20px;
   margin: 20px 40px;
+  z-index: 1;
+  transition: .4s;
+}
+
+.myWorks .project .seeMore:hover p {
+  opacity: 1;
 }
 
 .btnProjest {
@@ -407,7 +417,7 @@ body {
 }
 
 .myWorks .thirdProject {
-  background: linear-gradient(rgba(0, 0, 0, 0.699) 0%, rgba(0, 0, 0, 0.74) 100%), url("../img/imgProjects/listaDeCompras.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.699) 0%, rgba(0, 0, 0, 0.74) 100%), url("../img/imgProjects/listaDeCompras2.png");
   background-size: cover;
   background-position: center;
 }
