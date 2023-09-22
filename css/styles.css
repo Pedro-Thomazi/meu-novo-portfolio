@@ -375,6 +375,10 @@ body {
   box-shadow: .5px 10px 15px rgba(0, 0, 0, 0.664);
 }
 
+.myWorks .project p {
+  margin: 20px 40px;
+}
+
 .btnProjest {
   position: absolute;
   bottom: 20px;
