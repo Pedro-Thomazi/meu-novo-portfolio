@@ -497,6 +497,12 @@ footer p a {
   }
 }
 
+@media (max-width: 870px) {
+  #principal .myDivs {
+    font-size: .9em;
+  }
+}
+
 @media (min-width: 1144px) {
   #principal {
     width: 400px;
