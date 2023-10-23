@@ -146,6 +146,14 @@ body {
   margin-top: 50px;
 }
 
+.segundo div#bgGray {
+  background-color: #bbb;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.418);
+}
+
 .segundo h2 {
   margin-bottom: 20px;
   font-weight: 600;
