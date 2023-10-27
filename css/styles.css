@@ -624,7 +624,9 @@ body.dark .segundo .btnMoreHide label {
 }
 
 body.dark .segundo .btnMoreHide label:hover {
-  border-color: #212121;
+  border-color: #e4e4e4;
+  color: #e4e4e4;
+  background-color: transparent;
 }
 
 body.dark .segundo .card {
