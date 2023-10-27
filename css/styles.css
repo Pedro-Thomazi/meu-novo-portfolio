@@ -3,7 +3,8 @@
 }
 
 body {
-  background: linear-gradient(to bottom, #fff 0%, #cfcfcf 50%, #707070 100%);
+  background-color: #cfcfcf;
+  transition: .4s;
 }
 
 /* Header */
@@ -34,7 +35,7 @@ body {
   z-index: 1000;
 }
 
-.content div {
+.content div.line {
   position: absolute;
   bottom: 42px;
   width: 80vw;
@@ -513,4 +514,120 @@ footer p a {
   .projects .card {
     width: 500px;
   }
+}
+
+
+
+/* Dark mode */
+.darkMode {
+  position: absolute;
+  top: 200px;
+}
+
+.trilho {
+  width: 100px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #4d4d4d;
+  position: relative;
+  cursor: pointer;
+}
+
+.indicador {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #111;
+  border-radius: 50%;
+  transform: scale(.9);
+  position: absolute;
+  left: 0;
+  transition: .4s;
+}
+
+.indicador label {
+  font-size: 1.4em;
+  cursor: pointer;
+}
+
+.indicador label.btnSun {
+  display: none;
+}
+
+.trilho.dark .indicador label.btnMoon {
+  display: none;
+}
+
+.trilho.dark .indicador label.btnSun {
+  display: block;
+  color: goldenrod;
+}
+
+.indicador label {
+  text-align: center;
+}
+
+.trilho.dark {
+  background-color: #c1c1c1;
+}
+
+.trilho.dark .indicador {
+  left: 50px;
+  background-color: #fff;
+}
+
+body.dark {
+  background-color: #2e2e2e;
+}
+
+body.dark .primeiro {
+  background: #212121;
+  color: #e4e4e4;
+}
+
+body.dark .primeiro .title {
+  border-color: #e4e4e4;
+}
+
+body.dark .primeiro .myDivs {
+  border-color: #e4e4e4;
+}
+
+body.dark .primeiro .myDivs p {
+  color: #e4e4e4;
+}
+
+body.dark .primeiro .myBtn {
+  background: #e3e3e3;
+  color: #212121;
+}
+
+body.dark .primeiro .socials .bi-github {
+  color: #eee;
+}
+body.dark .segundo #bgGray {
+  background-color: #212121;
+  color: #e4e4e4;
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.171);
+}
+
+body.dark .segundo .educations ol li span {
+  background: #e4e4e4;
+  color: #212121;
+}
+
+body.dark .segundo .btnMoreHide label {
+  background: #e4e4e4;
+  color: #212121;
+}
+
+body.dark .segundo .btnMoreHide label:hover {
+  border-color: #212121;
+}
+
+body.dark .segundo .card {
+  background-color: #303030;
+  color: #e4e4e4;
 }
