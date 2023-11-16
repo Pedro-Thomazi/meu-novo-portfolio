@@ -37,7 +37,7 @@ body {
 
 .content div.line {
   position: absolute;
-  bottom: 42px;
+  bottom: 44px;
   width: 80vw;
   background: #ddd;
   height: 3px;
